@@ -1,10 +1,86 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>D424 Deployment</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WGU mobile app download</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f0f2f5;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      background: #fff;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+      max-width: 600px;
+      width: 90%;
+      text-align: center;
+    }
+
+    h1 {
+      color: #2c3e50;
+      margin-bottom: 10px;
+    }
+
+    .description {
+      color: #555;
+      font-size: 1rem;
+      margin-bottom: 20px;
+    }
+
+    .instructions {
+      text-align: left;
+      background-color: #f9f9f9;
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 30px;
+      font-size: 0.95rem;
+      line-height: 1.6;
+      color: #444;
+    }
+
+    .download-btn {
+      display: inline-block;
+      padding: 14px 28px;
+      background-color: #007bff;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 8px;
+      transition: background-color 0.3s ease;
+    }
+
+    .download-btn:hover {
+      background-color: #0056b3;
+    }
+  </style>
 </head>
 <body>
-  <h1>D424 Deployment</h1>
-  <a  href="https://github.com/JoshuaLWebb/D424-Deployment/releases/download/1.0.0/MobileApp.apk">Click here to download the APK</a>
+  <div class="container">
+    <h1>Download the WGU mobile app</h1>
+    <p class="description"> Read the instruction below to install the latest version of WGU mobile app on your Android device.</p>
+
+    <div class="instructions">
+      <strong>How to install:</strong>
+      <ol>
+        <li>Tap the button below to download the APK file.</li>
+        <li>If prompted, allow downloads from your browser.</li>
+        <li>Once the download completes, open the APK file.</li>
+        <li>If you see a warning, go to Settings &gt; Security and enable "Install from Unknown Sources".</li>
+        <li>Follow the on-screen instructions to complete the installation.</li>
+      </ol>
+    </div>
+
+    <a href="your-app.apk" class="download-btn" download>Download APK</a>
+  </div>
 </body>
 </html>
